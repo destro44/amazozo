@@ -1,0 +1,123 @@
+*{
+    align-items: center;
+}
+
+img{
+    display: block;
+    width: 180px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -3rem;
+    margin-top: -3rem;
+
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+
+
+}
+h1 span{
+    color: #0066c0;
+}
+p {
+    font-size: 0.8rem;
+    text-align: left;
+    padding-left: 7%;
+    margin: 0%;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.1rem;
+    font-weight: 700;
+}
+body {
+   font-size: 1.125rem;
+   margin: 0;
+}
+.container{
+    align-items: center;
+    margin: 0 auto;
+    max-width: 400px;
+
+}
+.containers{
+    align-items: center;
+    margin: 0 auto;
+    max-width: px;
+    justify-items: center;
+    
+}
+.col {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    max-width: 80%;
+    border: solid;
+    text-align: center;
+    border-radius: 4px;
+    border-width: 0.5px;
+    border-color: rgb(216, 215, 215);
+}
+.form{
+    text-align: center;
+}
+#email{
+    width: 85%;
+    height: 1.5rem;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: rgb(231, 231, 231);
+}
+#email:focus-within{
+    box-shadow:0 0 0 2px #f58505;
+    border:#e07c2b;
+    border-style: solid #e47b25;
+}
+#password{
+    width: 85%;
+    height: 1.5rem;
+    margin-top: 0rem;
+    margin-bottom: 0%;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: rgb(219, 219, 219);
+}
+#password:focus-within{
+    box-shadow:0 0 0 2px #f58505;
+    border-style: solid #e47b25;
+    border: #f58505;
+}
+.fp{
+    text-align: left;
+    font-size: 12px;
+    margin-top: 1rem;
+    width: 90%;
+    font-weight: 300;
+}
+.cont{
+    cursor: pointer;
+    background: -webkit-linear-gradient(#F2CE73,#F2CE73,#EFBF46,#EFBF46);
+    width: 88%;
+    height: 2rem;
+    border-radius: 3px;
+    border-style:  #ffffff solid;
+    border-width: 1px;
+    margin-top: 1rem;
+}
+.cont:hover{
+    background: -webkit-linear-gradient(#F3D27F,#F2CB69,#f8b918,#ffb908);
+}
+.cre{
+    cursor: pointer; width: 320px; height: 2rem; border-radius: 4px; border-width: 1px; border-color: rgb(196, 196, 196);
+    margin-top: 1rem;
+    align-self: center;
+    margin-left: 10%;
+}
+   .cre:hover{
+       background: -webkit-linear-gradient(#eeeeee,#dbdbdb,#e6e6e6,#d6d6d6)
+}
